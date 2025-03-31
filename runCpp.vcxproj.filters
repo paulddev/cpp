@@ -13,21 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\08 Use of functions">
-      <UniqueIdentifier>{4b8d80f3-fe2b-4521-a697-5780e118d44c}</UniqueIdentifier>
+    <Filter Include="08 Use of functions">
+      <UniqueIdentifier>{3597a8ec-503d-4c0f-8236-540d7cf0b0d7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inline.cpp">
-      <Filter>소스 파일\08 Use of functions</Filter>
-    </ClCompile>
     <ClCompile Include="firstref.cpp">
-      <Filter>소스 파일\08 Use of functions</Filter>
+      <Filter>08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="inline.cpp">
+      <Filter>08 Use of functions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Memo.md">
-      <Filter>소스 파일\08 Use of functions</Filter>
+      <Filter>08 Use of functions</Filter>
     </None>
   </ItemGroup>
 </Project>
