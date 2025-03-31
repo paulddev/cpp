@@ -13,10 +13,10 @@ int main()
 	double c = 13.0;
 
 	a = square(5.0);
-	b = square(4.5 + 7.5); // ÀÎ¶óÀÎÀº ¼ö½Äµµ Àü´Ş °¡´ÉÇÏ´Ù.
+	b = square(4.5 + 7.5); // ì¸ë¼ì¸ì€ ìˆ˜ì‹ë„ ì „ë‹¬ ê°€ëŠ¥í•˜ë‹¤.
 	cout << "a = " << a << ", b = " << b << endl;
 	cout << "c = " << c;
-	cout << ", cÀÇ Á¦°ö = " << square(c++) << endl;
-	cout << "ÇöÀç c = " << c << endl;
+	cout << ", cì˜ ì œê³± = " << square(c++) << endl;
+	cout << "í˜„ì¬ c = " << c << endl;
 	return 0;
 }
