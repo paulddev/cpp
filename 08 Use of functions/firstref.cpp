@@ -11,7 +11,7 @@ int main()
 	cout << "rats = " << rats;
 	cout << ", rodents = " << rodents << endl;
 
-	cout << "rats狼 林家 = " << &rats;
-	cout << ", rodents狼 林家 = " << &rodents << endl;
+	cout << "rats脌脟 脕脰录脪 = " << &rats;
+	cout << ", rodents脌脟 脕脰录脪 = " << &rodents << endl;
 	return 0;
 }
