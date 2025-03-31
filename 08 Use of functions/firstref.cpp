@@ -1,4 +1,5 @@
 #include <iostream>
+
 int main()
 {
 	using namespace std;
@@ -11,7 +12,7 @@ int main()
 	cout << "rats = " << rats;
 	cout << ", rodents = " << rodents << endl;
 
-	cout << "ratsÀÇ ÁÖ¼Ò = " << &rats;
-	cout << ", rodentsÀÇ ÁÖ¼Ò = " << &rodents << endl;
+	cout << "rats address = " << &rats;
+	cout << ", rodents address = " << &rodents << endl;
 	return 0;
 }

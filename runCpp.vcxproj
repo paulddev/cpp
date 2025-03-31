@@ -19,11 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="firstref.cpp" />
-    <ClCompile Include="inline.cpp" />
+    <None Include="08 Use of functions\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Memo.md" />
+    <ClCompile Include="08 Use of functions\firstref.cpp" />
+    <ClCompile Include="08 Use of functions\inline.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dummy.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
