@@ -21,5 +21,13 @@
     <ClCompile Include="inline.cpp">
       <Filter>소스 파일\08 Use of functions</Filter>
     </ClCompile>
+    <ClCompile Include="firstref.cpp">
+      <Filter>소스 파일\08 Use of functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Memo.md">
+      <Filter>소스 파일\08 Use of functions</Filter>
+    </None>
   </ItemGroup>
 </Project>
