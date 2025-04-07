@@ -27,15 +27,50 @@
     <ClCompile Include="08 Use of functions\inline.cpp">
       <Filter>Source Files\08 Use of functions</Filter>
     </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\file1.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\file2.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\autoscp.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\external1.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\support.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\twofile1.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\twofile2.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\static.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\newplace.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="08 Use of functions\README.md">
       <Filter>Source Files\08 Use of functions</Filter>
+    </None>
+    <None Include="09 Memory Model and Namespace\README.md">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="dummy.txt">
       <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="09 Memory Model and Namespace\coordin.h">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
