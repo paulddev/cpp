@@ -41,7 +41,10 @@
     <ClCompile Include="09 Memory Model and Namespace\file2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09 Memory Model and Namespace\newplace.cpp" />
+    <ClCompile Include="09 Memory Model and Namespace\namesp.cpp" />
+    <ClCompile Include="09 Memory Model and Namespace\newplace.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="09 Memory Model and Namespace\static.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -54,6 +57,7 @@
     <ClCompile Include="09 Memory Model and Namespace\twofile2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\usenmsp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="dummy.txt" />
@@ -62,6 +66,7 @@
     <ClInclude Include="09 Memory Model and Namespace\coordin.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="09 Memory Model and Namespace\namesp.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -54,6 +54,12 @@
     <ClCompile Include="09 Memory Model and Namespace\newplace.cpp">
       <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\namesp.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="09 Memory Model and Namespace\usenmsp.cpp">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="08 Use of functions\README.md">
@@ -70,6 +76,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="09 Memory Model and Namespace\coordin.h">
+      <Filter>Source Files\09 Memory Model and Namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="09 Memory Model and Namespace\namesp.h">
       <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </ClInclude>
   </ItemGroup>
