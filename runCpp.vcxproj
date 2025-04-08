@@ -20,13 +20,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="08 Use of functions\README.md" />
-    <None Include="09 Memory Model and Namespace\README.md" />
+    <None Include="09 Memory Model and Namespace\README.md">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="08 Use of functions\cubes.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="08 Use of functions\firstref.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="08 Use of functions\inline.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\secref.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\strc_ref.cpp" />
+    <ClCompile Include="08 Use of functions\swaps.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="09 Memory Model and Namespace\autoscp.cpp">
@@ -41,7 +53,9 @@
     <ClCompile Include="09 Memory Model and Namespace\file2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09 Memory Model and Namespace\namesp.cpp" />
+    <ClCompile Include="09 Memory Model and Namespace\namesp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="09 Memory Model and Namespace\newplace.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -57,16 +71,17 @@
     <ClCompile Include="09 Memory Model and Namespace\twofile2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09 Memory Model and Namespace\usenmsp.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="dummy.txt" />
+    <ClCompile Include="09 Memory Model and Namespace\usenmsp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="09 Memory Model and Namespace\coordin.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="09 Memory Model and Namespace\namesp.h" />
+    <ClInclude Include="09 Memory Model and Namespace\namesp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

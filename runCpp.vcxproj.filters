@@ -60,6 +60,18 @@
     <ClCompile Include="09 Memory Model and Namespace\usenmsp.cpp">
       <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </ClCompile>
+    <ClCompile Include="08 Use of functions\secref.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\swaps.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\cubes.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\strc_ref.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="08 Use of functions\README.md">
@@ -68,11 +80,6 @@
     <None Include="09 Memory Model and Namespace\README.md">
       <Filter>Source Files\09 Memory Model and Namespace</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="dummy.txt">
-      <Filter>Source Files\09 Memory Model and Namespace</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="09 Memory Model and Namespace\coordin.h">
