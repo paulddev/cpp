@@ -75,6 +75,18 @@
     <ClCompile Include="08 Use of functions\strquote.cpp">
       <Filter>Source Files\08 Use of functions</Filter>
     </ClCompile>
+    <ClCompile Include="08 Use of functions\filefunc.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\left.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\leftover.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
+    <ClCompile Include="08 Use of functions\funtemp.cpp">
+      <Filter>Source Files\08 Use of functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="08 Use of functions\README.md">
